@@ -4784,16 +4784,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 24.13) (xy 184.15 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30a47c84-2455-4cdd-a91b-3b52761b7578")
-	)
-	(wire
-		(pts
 			(xy 163.83 46.99) (xy 163.83 36.83)
 		)
 		(stroke
@@ -4831,16 +4821,6 @@
 			(type solid)
 		)
 		(uuid "37ae508e-6121-46a7-8162-5c727675dd10")
-	)
-	(wire
-		(pts
-			(xy 92.71 15.24) (xy 15.24 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6df704-2d4d-477a-836e-2901f56b60b1")
 	)
 	(wire
 		(pts
@@ -4892,16 +4872,6 @@
 			(type default)
 		)
 		(uuid "5365344a-e216-4696-98c7-3c27419f1b77")
-	)
-	(wire
-		(pts
-			(xy 15.24 15.24) (xy 15.24 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54534d6e-dfcf-454b-87dc-34f3cf11b189")
 	)
 	(wire
 		(pts
@@ -5015,16 +4985,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 45.72) (xy 68.58 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c017a96-69dd-4e84-ab79-985299e7d215")
-	)
-	(wire
-		(pts
 			(xy 81.28 40.64) (xy 107.95 40.64)
 		)
 		(stroke
@@ -5095,16 +5055,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 24.13) (xy 92.71 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa9a28d-c408-4d99-a7ba-8daad9dba125")
-	)
-	(wire
-		(pts
 			(xy 163.83 30.48) (xy 163.83 36.83)
 		)
 		(stroke
@@ -5142,16 +5092,6 @@
 			(type solid)
 		)
 		(uuid "a571c038-3cc2-4848-b404-365f2f7338be")
-	)
-	(wire
-		(pts
-			(xy 184.15 50.8) (xy 184.15 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83f1482-eb88-439a-bcaa-b4593459142e")
 	)
 	(wire
 		(pts
@@ -5346,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 45.72) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f514753b-e6fc-4517-aa70-7177c7bb9f66")
+	)
+	(wire
+		(pts
 			(xy 68.58 50.8) (xy 39.37 50.8)
 		)
 		(stroke
@@ -5383,6 +5333,16 @@
 			(justify left bottom)
 		)
 		(uuid "0bec16b3-1718-4967-abb5-89274b1e4c31")
+	)
+	(label "GPIO22"
+		(at 184.15 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1529a054-5ad4-48cd-8abf-03780710154d")
 	)
 	(label "GPIO24"
 		(at 165.1 102.87 180)
@@ -7528,7 +7488,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "900k"
 			(at 164.592 39.116 90)
 			(effects
 				(font
@@ -7816,7 +7776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1meg"
+		(property "Value" "220k"
 			(at 174.244 42.672 90)
 			(effects
 				(font
