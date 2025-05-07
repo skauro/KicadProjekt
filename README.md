@@ -17,9 +17,13 @@ This repository contains the complete KiCad project files, Gerber output, and a 
 
 ## 📁 Contents
 ├── gerber/ # Gerber files for manufacturing
+
 ├── *.kicad_sch # Schematic
+
 ├── *.kicad_pcb # PCB layout
+
 ├── Gerbers.rar # Pre-packaged archive to send to PCB manufacturer
+
 └── README.md # This file
 
 🛠️ How to Use
